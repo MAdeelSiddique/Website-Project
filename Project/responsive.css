@@ -1,0 +1,126 @@
+nav{
+    background-color: #ae0b0b;
+    height: 89px;
+    padding: 0px 10px;
+}
+/* .ad-in{display: none;}  */
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 0px 0 35px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a.active , a:hover{
+    background: #1b9bff;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 51px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#chech{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 1055px) {
+    .navlist li {
+        padding: 14px 0 0 57px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 858px) {
+    .navsection{
+        display: none !important;
+
+    }
+
+    .respo-nav{
+        display: block;
+    }
+
+}
+
+
+
+ 
+@media(max-width: 952px){
+    label.logo{
+        margin: 0;
+        color: #fff;
+        font-size: 44px;
+        font-family: "Domine", serif;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #971313;
+        top: 80px;
+        left: -106%;
+        text-align: center;
+        transition: all .5s ;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Domine", serif;
+    }
+    a:hover,a.active{
+        text-decoration: none;
+        color: #fff;
+        font-size: 24px;
+        font-family: "Domine", serif;
+        background: none;
+    }
+    #check:checked ~ ul{
+        left: 0;
+        margin: 0;
+    }
+}
+ @media(max-width:320px){
+   .ad-hero{padding: 73px 0 !important;}
+}

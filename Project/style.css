@@ -1,0 +1,321 @@
+@font-face {
+    font-family:adfont ;
+    src: url(Nunito/Nunito-VariableFont_wght.ttf);
+}
+span{
+    color: red;
+}
+body{
+    margin: 0;
+}
+.container{
+    margin: 0px 50px;
+}
+
+.box:hover{
+    box-shadow: #000 0px 0px 8px 3px
+}
+
+/* Nave Start */
+.navsection{
+    background-color: #ae0b0b;
+    padding: 8px 0;
+}
+
+.navrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navrow h3{
+    margin: 0;
+    color: #fff;
+    font-size: 44px;
+    font-family: "Domine", serif;
+}
+
+.navlist{
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+}
+
+.navlist li{
+    padding: 14px 116px 0 0;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-family: "Domine", serif;
+}
+
+.navlist li a:hover{
+    border-bottom: solid 2px #fff;
+    text-shadow: #000 6px 0px 4px; 
+}
+/* Nave End */
+
+
+
+.respo-nav{
+    display: none;
+}
+
+
+/* Herro Section Start */
+.herrosection{
+    background: url(img/herrobg1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    background-color:rgba(0, 0, 0, 0.4) ;
+}
+
+.herrorow{
+    padding: 70px 0px 110px 0px;
+}
+
+.herrorh1 h1{
+    margin: 0;
+    text-align: center;
+    color: red;
+    font-size: 56px;
+    padding: 25px 0 8px 0;
+    font-family: "Domine", serif;
+}
+
+.herropera{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.herropera p{
+    margin: 0;
+    display: inline-block;
+    font-size: 22px;
+    font-family: "Domine", serif;
+    padding: 8px 0px 8px 0;
+}
+
+.hir-but{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.hir-but a{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 7px 19px;
+    border-radius: 9px;
+}
+/* Herro Section End */
+
+/* fruite Section Start */
+
+.Fruit-Section{
+    background-color: #dddddd;
+    padding-bottom: 20px;
+}
+
+.fr-had{
+    padding: 30px 0px;
+}
+
+.fr-had h3{
+    margin: 0;
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+}
+
+.fr-had h3 span{
+    color: red;
+}
+
+.fri-1strow{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.card{
+    border: 2px solid #000;
+    margin-right: 30px;
+    border-radius: 17px;
+}
+.fru-img{
+    max-width: 100%;
+    border-radius: 17px 17px 0px 0px;
+}
+
+.card h3{
+    color: #000;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 6px;
+    font-family: "Sofia", sans-serif;
+    
+}
+
+.card p {
+    color: #000000;
+    line-height: 1.4rem;
+    font-size: 1.0rem;
+    text-align: justify;
+    padding: 0px 15px;
+    margin: 0;
+}
+
+.card a{
+    text-decoration: none;
+    color: #fff;
+    background-color: red;
+    padding: 6px 10px;
+    font-size: 1.0rem;
+    border-radius: 10px;
+    display: block;
+    width: 33%;
+    margin: 15px auto;
+}
+
+
+.gbox{
+
+}
+
+.card:hover{
+    box-shadow: #000 0px 0px 8px 3px;
+}
+
+
+/* fruite Section End */
+
+
+
+/* mango page Start*/
+.mangosection{
+    background: url(img/types-of-mangoes-in-india.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mherhad{
+    color: #fff !important;
+}
+
+.blogsection{
+    background-color: #dddddd;
+}
+.blogbox{
+    text-align: center;
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 30px 20px 30px;
+    border-radius: 10px;
+
+}
+
+.bloghad h2{
+    margin: 0;
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    padding: 40px 0;
+}
+
+.bloghad h2 span{
+    color: red;
+}
+
+.blogper p{
+    text-align: left;
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 22px;
+    font-family: "adfont";
+
+}
+
+.footer{
+    background-color: #ae0b0b;
+}
+
+.footerp{
+    margin: 0;
+    padding: 7px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.fruit-img img{
+    max-width: 100%;
+}
+
+
+/* mango page Start*/
+
+.strawberrysection{
+    background: url(img/strawberrybg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* pineapple section */
+
+.pineapplesection{
+    background: url(img/pineapple.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.pineapplehadding{
+    text-align: left;
+    font-size: 38px;
+    font-family: "adfont";
+    margin: 0;
+    padding: 20px 0 11px 0;
+}
+
+.pineul{
+    text-align: left;
+}
+
+.pineul li{
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 22px;
+    font-family: "adfont";
+    padding: 20px 0 0 0;
+}
+
+
+/* orange section */
+
+
+.orangesection{
+    background: url(img/orange-Jay.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
